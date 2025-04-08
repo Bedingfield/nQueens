@@ -39,8 +39,6 @@ int main()
 	board = createNewBoardWithInit();
 	
 	findSolutionsRecursive(0);
-	//findNonUniqueSolutions();
-	//removeAllNonUniqueSolutions();
 	
 	cout << solutions.size() << " unique solutions" << endl;
 	
